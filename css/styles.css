@@ -3,7 +3,8 @@ body {
 }
 
 h1 {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+  /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  */
+  font-family: 'Courier New', Courier, monospace;
   background-color: beige;
 }
 
@@ -14,14 +15,14 @@ ul {
   overflow: hidden;
   background-color: #333;
   text-align: center;
+  font-family: 'Courier New', Courier, monospace;
 }
 
-#navbar ul{
-  text-align: center;
-}
 
 li {
   float: left;
+  text-align: center;
+  border-right: 2px solid #bbb; 
 }
 
 li a {
@@ -33,7 +34,10 @@ li a {
   
 }
 
-/* Change the link color to #111 (black) on hover */
+
 li a:hover {
-  background-color: #111;
+  font-family: 'Courier New', Courier, monospace;
+  background-color: white;
+  color: black;
 }
+

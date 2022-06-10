@@ -5,12 +5,11 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <h1>STUDY GUIDE</h1>
+    <h1>STUDY GUIDE - Phase 1</h1>
     <div id="navbar">
       <ul>
         <li><a href="index.html"> Home </a></li>
-        <li><a href="prework.html"> Pre-work </a></li>
-        <li><a href="phase1.html"> Phase 1 </a></li>
+        <li><a href="phase1.html"> PHASE I </a></li>
         <li><a href="phase2.html"> Phase 2 </a></li>
         <li><a href="phase3.html"> Phase 3 </a></li>
         <li><a href="phase4.html"> Phase 4 </a></li>
@@ -18,7 +17,58 @@
         <li><a href="vocab.html"> Vocab </a></li>
       </ul>
     </div>
-    <h2>JavaScipt Fundamentals</h2>
+    <h2>JavaScript Fundamentals</h2>
     <h3>The Differences Between Let, Const, & Var:</h3>
+    <p>
+      <strong>Var: </strong>Var is used and processed before any code executes.
+      *Hoisting* <br />Example: <br />console.log(existence)
+      <em>// returns undefined as opposed to an error</em><br />
+      var existence = "yes!";
+    </p>
+    <p>
+      <strong>Const: </strong>Const is the <strong>preferred</strong> variable
+      due to it's capability of being re-declared but not reassigned (can't
+      change the value of it). <br />
+      Example: <br />const changeMe = 123; <br />
+      changeMe = "I am changed"; <br />
+      console.log(changeMe); <em> // Uncaught TypeError</em>
+    </p>
+    <p>
+      <strong>Let: </strong>Let is used when you know the value of the variable
+      will change (for-loop). It's also capable of being reassigned. <br />
+      Example: <br />
+      let changeMe = 123; <br />changeMe = "I am changed";
+      <br />console.log(changeMe); <em>// I am changed</em>
+    </p>
+    <h3>String Interpolation and Concatenation:</h3>
+    <p>String Interpolation allows for the capability to have a flexible variable in a string. 
+      <br>Example: <br>const flexVar = `Your name is ${userName}`; <em>// Will contain the contents of the variable userName.</em>
+    </p>
+    <p>String Concatenation is the adding of multiple strings to form a single one. <br>Example: <br> 
+    "Hi, this is" + " phase1 of 5"; <em>// Hi, this is phase1 of 5</em></p>
+    <h3>The .slice() Method:</h3>
+    <p>The .slice method returns a copy of a string with specified indexes.
+      <br> Example: <br> "My Favorite Food IsGood".slice(3, 16) <em>// "Favorite Food"</em>
+    </p>
+
+
+
+
+
+
+
+
+
+
+
+    <hr />
+
+
+
+
+
+
+
+
   </body>
 </html>
